@@ -1,0 +1,17 @@
+document.getElementById("enviar").addEventListener("click",bmical);
+
+
+
+function bmical()
+{
+    var nombre = (document.getElementById("nombre").value);
+    var edad = parseFloat(document.getElementById("edad").value);
+    var bmi;
+    var resul = `Hola ${nombre} tu edad  es ${edad} años y el proximo año tendrás ${resul = edad+1}`
+    var bmi = resul;
+
+    document.getElementById("resultado").innerHTML = bmi;
+
+
+   
+}
