@@ -1,0 +1,20 @@
+document.getElementById("enviar").addEventListener("click",numeros);
+
+
+function numeros(){
+    var numero = parseFloat(document.getElementById("numero").value);
+    var par;
+    var impar;
+    var resul;
+for(let i=1; i<=numero; i++){
+    if(i%2==0){
+        par =(`${i} - es par `);
+    }else{
+        impar = (`${i} - es impar `);
+    }
+    
+    
+}
+resul = par + impar;
+document.getElementById("resultado").innerHTML = resul;
+}
