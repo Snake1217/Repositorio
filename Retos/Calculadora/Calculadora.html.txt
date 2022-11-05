@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="contenedor">
+        <div class="calculadora">
+            <input type="text" placeholder="0" id="output-screen">
+            <button onclick="limpiar()">CL</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="monitor('%')">%</button>
+            <button onclick="monitor('/')">/</button>
+            <button onclick="monitor('7')">7</button>
+            <button onclick="monitor('8')">8</button>
+            <button onclick="monitor('9')">9</button>
+            <button onclick="monitor('*')">*</button>
+            <button onclick="monitor('4')">4</button>
+            <button onclick="monitor('5')">5</button>
+            <button onclick="monitor('6')">6</button>
+            <button onclick="monitor('-')">-</button>
+            <button onclick="monitor('1')">1</button>
+            <button onclick="monitor('2')">2</button>
+            <button onclick="monitor('3')">3</button>
+            <button onclick="monitor('+')">+</button>
+            <button onclick="monitor('.')">.</button>
+            <button onclick="monitor('0')">0</button>
+            <button onclick="Calcular()" class="igual">=</button>
+        </div>
+    </div>
+    <script>
+        let outputScreen = document.getElementById("output-screen");
+        
+        function monitor(num){
+    outputScreen.value += num;
+}
+function Calcular(){
+    try{
+        outputScreen.value = eval(outputScreen.value);
+     }
+     catch(err)
+     {
+        alert("Invalido")
+     }
+    }
+    function limpiar(){
+    outputScreen.value = "";
+}
+function del(){
+    outputScreen.value = outputScreen.value.slice(0,-1);
+}
+    </script>
+</body>
+</html>
