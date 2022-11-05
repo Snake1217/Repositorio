@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Consultas</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Consulta #1</a>
+			</div>
+		</nav>
+		<div class="contenedor-imagen">
+			<a href="#">
+				<img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80s" alt="">
+			</a>
+		</div>
+	</header>
+	<main id="blog">
+		<div class="contenedor">
+			<aside>
+				<h3 class="titulo">Protocolos</h3>
+				<nav class="indice">
+					<a href="#HTTP">HTTP</a>
+					<a href="#TCP-IP">TCP/IP</a>
+					<a href="#DNS">DNS</a>
+					<a href="#CND">CDN</a>
+					<a href="#WWW">WWW</a>
+					<a href="#FTP">FTP</a>
+					<a href="#HTML">HTML</a>
+				</nav>
+			</aside>
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo" id="HTTP">HTTP</h1>
+					<a target="_blank" class="fecha" href="https://developer.mozilla.org/es/docs/Web/HTTP/Overview">Publicado por</a>
+					<p>
+						HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, 
+						como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, 
+						esto quiere decir que una petición de datos es iniciada por el elemento que recibirá los datos (el cliente), normalmente un navegador Web. Así, una página web completa resulta de la unión de distintos sub-documentos recibidos, como, por ejemplo: un documento que especifique el estilo de maquetación de la página web (CSS),
+						 el texto, las imágenes, vídeos, scripts, etc..
+					</p>
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="TCP-IP">TCP/IP</h1>
+					<a target="_blank" class="fecha" href="https://www.ibm.com/docs/es/aix/7.2?topic=protocol-tcpip-protocols">Publicado por</a>
+					<p>
+					TCP/IP define cuidadosamente cómo se mueve la información desde el remitente hasta el destinatario.
+					En primer lugar, los programas de aplicación envían mensajes o corrientes de datos a uno de los protocolos de la capa de transporte de Internet, UDP (User Datagram Protocol) o TCP (Transmission Control Protocolo). Estos protocolos reciben los datos de la aplicación, los dividen en partes más pequeñas llamadas paquetes, añaden una dirección de destino y,
+					a continuación, pasan los paquetes a la siguiente capa de protocolo, la capa de red de Internet.
+                    La capa de red de Internet pone el paquete en un datagrama de IP (Internet Protocol), pone la cabecera y la cola de datagrama, decide dónde enviar el datagrama (directamente a un destino o a una pasarela) y pasa el datagrama a la capa de interfaz de red.
+                    La capa de interfaz de red acepta los datagramas IP y los transmite como tramas a través de un hardware de red específico, por ejemplo redes Ethernet o de Red en anillo.
+					</p>
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="DNS">DNS</h1>
+					<a target="_blank" class="fecha" href="https://www.redeszone.net/tutoriales/internet/que-es-protocolo-dns/">Publicado por</a>
+					<p>
+						DNS son las siglas en inglés del sistema de nombres de dominio. Es un protocolo que se encarga de vincular los nombres de los sitios web que visitamos con su correspondiente dirección IP. Básicamente lo que hace es traducir lo que ponemos. 
+						Por ejemplo si entramos en RedesZone, va a traducir el nombre de dominio redeszone.net por la dirección IP que corresponda y nos mostrará el contenido en el navegador.
+                        Esto permite que los usuarios no tengamos que memorizar números sin mucho sentido. Simplemente hay que saber cuál es el nombre del sitio y automáticamente los servidores DNS van a vincularlos a la dirección IP y poder navegar por ellos.
+					</p>
+				</div>
+				<div class="post">
+					<h1 class="titulo" id="CDN">CDN</h1>
+					<a target="_blank" class="fecha" href="https://www.akamai.com/es/our-thinking/cdn/what-is-a-cdn">Publicado por</a>
+					<p>
+						Una red de distribución de contenido (CDN) es un grupo de servidores repartidos en distintas zonas geográficas que aceleran la entrega del contenido web al acercarlo a los usuarios. Los centros de datos de todo el mundo utilizan el almacenamiento en caché, un proceso que almacena temporalmente copias de archivos, de modo que pueda acceder al contenido de Internet con un dispositivo o navegador web de forma más rápida a través de un servidor cercano. Las CDN almacenan en caché contenido, como sitios web, imágenes y vídeos, en servidores proxy cerca de su ubicación física. 
+						Esto le permite ver una película, descargar software, revisar el saldo de su cuenta bancaria, publicar en redes sociales o comprar artículos sin tener que esperar a que se cargue el contenido.
+                        Una CDN es como una especie de cajero automático. Tener un cajero automático prácticamente en cada esquina hace que conseguir dinero sea más rápido y eficaz. No hay tiempo de espera en las colas del banco y los cajeros automáticos están situados en lugares convenientes para un acceso inmediato.
+					</p>
+				</div>	
+				<div class="post">
+					<h1 class="titulo" id="WWW">WWW</h1>
+					<a target="_blank" class="fecha" href="http://personales.upv.es/rmartin/TcpIp/cap06s02.html">Publicado por</a>
+					<p>World Wide Web es un sistema de hipertexto global que Tim Berners Lee desarrolló inicialmente en 1989 en el Laboratorio Europeo de Física de Partículas, CERN en Suiza. En 1993 la Web empezó a crecer rápidamente y se mantuvo debido al NCSA (Centro Nacional de Aplicaciones de Supercomputadores) que desarrolló un navegador de Web llamado Mosaic, una aplicación basada en X Windows. Esta aplicación proporcionó la primera interfaz gráfica de usuario para la Web e hizo la navegación más sencilla.
+						Hoy en día existen navegadores y servidores de Web disponibles para casi todas las plataformas. Se pueden obtener a través de FTP libremente o comprar una copia de licencia. El rápido crecimiento de la Web se debe a que la gente puede navegar de forma flexible por los recursos que están ampliamente extendidos en Internet y recuperarlos. Para tener una idea del crecimiento de la Web, aquí se muestran algunas estadísticas:
+						Junio de 1993 - sólo 130 sitios Web disponibles
+						Diciembre de 1994 - más de 11500 sitios Web disponibles
+						Presentar un documento en hipertexto tiene ciertas ventajas para el usuario. Por ejemplo, si se quiere más información sobre un tema en particular, con una simple pulsación de ratón se puede leer más detalle sobre ello. Los temas con un enlace a otro documento se puede identificar fácilmente porque están resaltados. Un documento de Web podría incluir enlaces a otros documentos residiendo en diferentes sitios Web. Si se activa el enlace, con una pulsación de ratón, el otro documento se recupera automáticamente del servidor correspondiente y se muestra.
+					</p>
+				</div>	
+				<div class="post">
+					<h1 class="titulo" id="FTP">FTP</h1>
+					<a target="_blank" class="fecha" href="https://www.xataka.com/basics/ftp-que-como-funciona">Publicado por</a>
+					<p>
+						Vamos a explicarte qué es el FTP y cómo funciona, un protocolo de intercambio de archivos que lleva 50 años con nosotros, y que es más antiguo que la propia Internet. A día de hoy todavía se utiliza en algunos contextos, 
+						aunque de cara a intercambiar archivos entre usuarios suelen utilizarse más otras alternativas como el P2P o el alojamiento en la nube.
+                        En cualquier caso, no deja de ser una tecnología con la que puede que te encuentres todavía alguna vez, y que es pura historia de Internet. Por lo tanto, nunca está de más poder conocerla. Nosotros, vamos a intentar explicártelo de la forma más sencilla posible, 
+						simplificando algunos conceptos de manera que lo puedas entender.
+					</p>
+				</div>	
+				<div class="post">
+					<h1 class="titulo" id="HTML">HTML</h1>
+					<a target="_blank" class="fecha" href="https://developer.mozilla.org/es/docs/Web/HTTP">Publicado por</a>
+					<p>
+						Hypertext Transfer Protocol (HTTP) (o Protocolo de Transferencia de Hipertexto en español) es un protocolo de la capa de aplicación para la transmisión de documentos hipermedia,
+						 como HTML. Fue diseñado para la comunicación entre los navegadores y servidores web, aunque puede ser utilizado para otros propósitos también. 
+						 Sigue el clásico modelo cliente-servidor, en el que un cliente establece una conexión, realizando una petición a un servidor y espera una respuesta del mismo. Se trata de un protocolo sin estado, 
+						 lo que significa que el servidor no guarda ningún dato (estado) entre dos peticiones. Aunque en la mayoría de casos se basa en una conexión del tipo TCP/IP, puede ser usado sobre cualquier capa de transporte segura o de confianza, 
+						 es decir, sobre cualquier protocolo que no pierda mensajes silenciosamente, tal como UDP.
+					</p>
+				</div>		
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="contenedor-imagen">
+			<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
+		</div>
+		<nav class="navbar">
+				<div class="contenedor">
+				<a href="#">Consulta #1</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+</html>
