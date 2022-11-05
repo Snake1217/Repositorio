@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="columns">
+	
+        <div class="column">
+            <div class="caja">
+            <h2>EJERCICIOS DEL 1 AL 5</h2>
+            <div class="caja"> <a href=" https://snake1217.neocities.org/Ejercicios/ejer1.html">Ejercicio 1</a></div>
+            <div class="caja"> <a href="">Ejercicio 2</a></div>
+            <div class="caja"> <a href="">Ejercicio 3</a></div>
+            <div class="caja"> <a href="">Ejercicio 4</a></div>
+            <div class="caja"> <a href="">Ejercicio 5</a></div>
+        </div>
+        </div>
+        
+        <div class="column">
+            <div class="caja">
+            <h2>EJERCICIOS DEL 6 AL 10</h2>
+            <div class="caja"> <a href="">Ejercicio 6</a></div>
+            <div class="caja"> <a href="">Ejercicio 7</a></div>
+            <div class="caja"> <a href="">Ejercicio 8</a></div>
+            <div class="caja"> <a href="">Ejercicio 9</a></div>
+            <div class="caja"> <a href="">Ejercicio 10</a></div>
+        </div>
+        </div>
+    </section>	
+</body>
+</html>
