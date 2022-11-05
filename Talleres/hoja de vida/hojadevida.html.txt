@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>HojaDevida</title>
+</head>
+<body>
+    <header>
+        <div class="perfil">
+            <img src="https://snake1217.neocities.org/imagenes/FotoPersonal.jpeg" alt="foto">
+        </div>
+        <nav>
+            <article class="contacto">
+                <h2>Juan Jose Jimenez Molina</h2>
+                <h3>Estudiante</h3>
+               <a href="emailto:juanjos.1217@gmail.com">juanjos.1217@gmail.com</a>
+               <a class="telefono">+57 30023823</a>
+               <a href="https://es.wikipedia.org/wiki/Colombia">Colombia</a>
+               <p>Me apasionan las motos de alto cilindraje y las nuevas tecnologias</p>
+            </article>
+        </nav>
+    </header>
+    <section>
+        <div class="formacion">
+            <h2 class="titulo">Formacion</h2>
+            <hr>
+            <p>Enero-2012 Nov-2018</p>
+            <p>Presente</p>
+        </div>
+        <nav>
+            <article class="descripcion">
+                <h2>Bachillerato</h2>
+                <p>Institucion Educativa Avelino Saldarriaga</p>
+                <h2>Ingenieria Informatica</h2>
+                <p>Institucion Universitaria De Envigado</p>
+            </article>
+        </nav>
+    </section>
+    <section>
+        <div class="cursos">
+            <h2 class="titulo2">Cursos</h2>
+            <hr>
+            <h2>programacion</h2>
+            <p>agosto 2021</p>
+            <h2>bases de datos</h2>
+            <p>Agosto 2021</p>
+        </div>
+        <nav>
+            <article class="des">
+                <h2>Redes de datos</h2>
+                <p>noviembre 2020</p>
+                <h2>Progamacion web</h2>
+                <p>presente</p>
+            </article>
+        </nav>
+    </section>
+    <section>
+        <div class="certificados">
+            <h2>Certificado</h2>
+            <hr>
+            <h2>Python</h2>
+            <p>noviembre 2021</p>
+        </div>
+        <nav>
+           <article class="volver">
+             <a class="vol" href="https://snake1217.neocities.org">Volver</a>
+           </article>
+        </nav>
+    </section>
+</body>
+</html>
