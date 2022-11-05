@@ -1,0 +1,15 @@
+
+document.getElementById("enviar").addEventListener("click",factorial);
+
+function factorial(){
+    var numero = parseFloat(document.getElementById("numero").value);
+    var result = 1;
+    var resul;
+    for(let i = numero; i>1; i--){
+        result *= i
+    }
+    resul = `El factorial de ${numero} es ${result}`
+    document.getElementById("resultado").innerHTML = resul;
+
+
+}
