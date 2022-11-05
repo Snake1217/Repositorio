@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    background-color: #b08282;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.perfil img{
+    height: 200px;
+    margin-right: 10px;
+}
+nav{
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+.formacion p{
+    font-size: medium;
+}
+.descripcion p{
+    font-size: medium;
+}
+
+
+
+.contacto h3{
+    color:#82859B;
+    padding: -10px;
+}
+
+article a{
+color:#82859B;
+text-decoration: none;
+display: block;
+padding: 1px;
+}
+
+section{
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.titulo{
+   
+    text-shadow: #82859B;
+}
+.formacion p{
+   padding-top: 150px;
+}
+
+.descripcion h2{
+padding-top: 130px;
+}
+hr{
+    background-color: black;
+    margin-left: 125px;
+    margin-right: -988px;
+    margin-top: -25px;
+    
+}
+
+.des h2{
+    padding-top: 190px;
+    
+}
+
+.cursos h2{
+    padding-top:80px;
+}
+
+.vol{
+    padding-top: 70px;
+    font-size: medium;
+    color: blue;
+}
+
