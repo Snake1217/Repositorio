@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta2</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <header>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="#">Consulta #2</a>
+			</div>
+		</nav>
+		<div class="contenedor-imagen">
+			<a href="#">
+				<img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80s" alt="">
+			</a>
+		</div>
+	</header>
+	<main id="blog">
+		<div class="contenedor">
+			<aside>
+				<h3 class="titulo">Modelo DOM</h3>
+				<nav class="indice">
+					<a href="#HTTP">¿Qué es?</a>
+				</nav>
+			</aside>
+			<div class="contenido">
+				<div class="post">
+					<h1 class="titulo" id="Dom">¿Qué es?</h1>
+					<a target="_blank" class="fecha" href="https://www.w3.org/2005/03/DOM3Core-es/introduccion.html">Para mas informacion click aquí</a>
+					<p>
+		  El Modelo de Objetos del Documento (DOM) es una interfaz de programación de aplicaciones (API) para documentos validos HTML y bien construidos XML. Define la estructura lógica de los documentos y el modo en que se accede y manipula. En la especificación DOM, el término "documento" es utilizado en un sentido amplio - the term "document" is used in the broad sense - cada vez más XML es utilizado como un medio de representar muchas clases diferentes de información   que puede ser almacenada en sistemas diversos, y mucha de esta información se vería, en términos tradicionales, más como datos que como documentos. Sin      embargo, XML presenta estos datos como documentos, y se puede utilizar DOM para manejar estos datos.
+        Con el Modelo de Objetos del Documento, los programadores pueden construir documentos, navegar por su estructura, y añadir, modificar, o eliminiar elementos y        contenido. Se puede acceder a cualquier cosa que se encuentre en un documento HTML o XML, modificando, borrando o añadiendo utilizando el Modelo de Objetos del     Documento, con algunas excepciones - en particular, aún no se han especificado aplicaciones DOM para los subconjuntos interneto y externos de XML.
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="contenedor-imagen">
+			<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
+		</div>
+		<nav class="navbar">
+				<div class="contenedor">
+				<a href="#">Consulta #2</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+</html>
