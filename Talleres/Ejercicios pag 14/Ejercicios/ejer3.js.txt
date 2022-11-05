@@ -1,0 +1,29 @@
+document.getElementById("enviar").addEventListener("click",primos);
+
+function primos(){
+var divisores = 0;
+var numero = parseFloat(document.getElementById("numero").value);
+var resul;
+var nop;
+var pri;
+
+
+if (numero === 1)
+ `${numero} no es valido`
+else {
+
+    for (let i = 2; i < numero; i++) {
+        if (numero % i == 0) {
+           nop = `${numero} / ${i} = ${numero / i} No es primo`
+            divisores++
+            break
+        }
+    }
+}
+
+if(divisores==0) 
+pri = `${numero} es primo`
+
+resul = pri + nop;
+document.getElementById("resultado").innerHTML = resul;
+}
